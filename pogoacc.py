@@ -24,5 +24,15 @@ while True:
         print('Success!')
         break  
 
+def recieveSMS():
+    browser.get('https://www.receivesms.co/')
 
-browser.get('https://club.pokemon.com/us/pokemon-trainer-club/sign-up/')
+def email():
+    browser.get('https://www.fakemail.net/')
+
+
+def makeAccount():
+    browser.get('https://club.pokemon.com/us/pokemon-trainer-club/sign-up/')
+
+email()
+makeAccount()
